@@ -53,12 +53,33 @@ main{
     background-color: yellow;
     height: 1400px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.main1{
+    height: 400px;
+    width: 100%;
+    display:flex;
 }
 .welcome{
     height: 400px;
     width: 50%;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.welcome h2{
+    margin-left: 25px;
+}
+.welcome h3{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.welcome p{
+    text-align: justify;
+    width: 95%;
+    padding-left: 10px;
 }
 .main2{
     height: 400px;
@@ -99,10 +120,11 @@ main{
 }
 .main4{
     display: flex;
-    height: 600px;
+    height: 450px;
     background-color: blue;
     justify-content: space-around;
     align-items: center;
+    flex-wrap:wrap;
 }
 .title{
     height: 300px;
@@ -116,4 +138,18 @@ main{
 .title p{
     text-align: center;
     font-size: 15px;
+}
+.images{
+    position: relative;
+    top: -50px;
+    height:170px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.images img{
+    
+    width: 250px;
 }

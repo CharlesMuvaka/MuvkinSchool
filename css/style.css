@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     background-image: url("../images/cdb.jpeg");
     background-size: cover;
     display: flex;
@@ -51,7 +51,7 @@ nav a:hover {
 main{
     width: 80%;
     background-color: yellow;
-    height: 800px;
+    height: 1400px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -67,11 +67,11 @@ main{
     background-size: cover;
 }
 .main3{
-    height: 400px;
+    height: 350px;
     width: 100%;
-    background-color: aliceblue;
-    padding: 10px;
+    background-color: red;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 
 }
@@ -94,7 +94,26 @@ main{
     text-align: center;
     font-size: 15px;
 }
-.fas{
-    color: green;
-    font-size: 70px;
+.education h3{
+    color: brown;
+}
+.main4{
+    display: flex;
+    height: 600px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    height: 300px;
+    width: 32%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title p{
+    text-align: center;
+    font-size: 15px;
 }

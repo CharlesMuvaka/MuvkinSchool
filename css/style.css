@@ -14,3 +14,37 @@ header {
     width: 80%;
     background-color: antiquewhite;
 }
+
+.logo {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo h1 {
+    padding-left: 10px;
+}
+
+nav {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+nav a:link {
+    font-size: 20px;
+    color: brown;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}

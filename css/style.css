@@ -70,5 +70,31 @@ main{
     height: 400px;
     width: 100%;
     background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 
+}
+.education{
+    height: 300px;
+    width: 30%;
+    border: 1px solid brown;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.education img{
+    height: 70px;
+    width: 70px;
+}
+.education p{
+    text-align: center;
+    font-size: 15px;
+}
+.fas{
+    color: green;
+    font-size: 70px;
 }

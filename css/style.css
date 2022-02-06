@@ -51,6 +51,24 @@ nav a:hover {
 main{
     width: 80%;
     background-color: yellow;
-    height: 600px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
 }
+.welcome{
+    height: 400px;
+    width: 50%;
+    background-color: red;
+}
+.main2{
+    height: 400px;
+    width: 50%;
+    background-image: url("../images/l26.jpg");
+    background-size: cover;
+}
+.main3{
+    height: 400px;
+    width: 100%;
+    background-color: aliceblue;
 
+}

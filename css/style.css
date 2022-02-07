@@ -197,6 +197,11 @@ footer{
 .form-control{
     padding:5px;
 }
+.form-control input{
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
 .btn{
     color: black;
     background-color: brown;

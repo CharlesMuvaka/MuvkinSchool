@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 1500px;
+    height: 2000px;
     background-image: url("../images/cdb.jpeg");
     background-size: cover;
     display: flex;
@@ -11,7 +11,7 @@
 header {
     display: flex;
     height: 100px;
-    width: 80%;
+    width: 90%;
     background-color: antiquewhite;
 }
 
@@ -49,20 +49,20 @@ nav a:hover {
     color: black;
 }
 main{
-    width: 80%;
+    width: 90%;
     background-color: yellow;
-    height: 1400px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
 }
 .main1{
-    height: 400px;
+    height: 500px;
     width: 100%;
     display:flex;
 }
 .welcome{
-    height: 400px;
+    height: 500px;
     width: 50%;
     background-color: red;
     display: flex;
@@ -82,7 +82,7 @@ main{
     padding-left: 10px;
 }
 .main2{
-    height: 400px;
+    height: 500px;
     width: 50%;
     background-image: url("../images/l26.jpg");
     background-size: cover;
@@ -118,9 +118,12 @@ main{
 .education h3{
     color: brown;
 }
+.content{
+    height: 320px;
+}
 .main4{
     display: flex;
-    height: 450px;
+    height: 350px;
     background-color: blue;
     justify-content: space-around;
     align-items: center;
@@ -152,4 +155,25 @@ main{
 .images img{
     
     width: 250px;
+}
+footer{
+    background-color: aliceblue;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+footer div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+
+#navF a{
+    font-size: 15px;
 }

@@ -1,0 +1,38 @@
+.container{
+
+    width: 90%;
+    background-color: grey;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 147, 147);
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 90%;
+}
+.cont1 p, #u{
+    font-size: 10px;
+
+}
+#btnSubmit{
+    height: 50px;
+    width: 100px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: brown;
+    color: black;
+}

@@ -221,3 +221,8 @@ footer{
     height: 50px;
     width: 50px;
 }
+#past{
+    font-style: italic;
+    font-size: 12px;
+    margin-top: -10px;
+}

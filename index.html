@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MuvkinSchool</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/style.js"> </script>  
+    
 </head>
 <body>
     <div class="container">
@@ -33,19 +35,16 @@
                     </p>
                     <p>To promote the schools culture students must sign in to do the opening term quiz which consists of five questions.</p>
                     <h4>Student signIn</h4>
-                   <form class="form" id="signIn">
-                       <div class="form-control">
-                           <label>Middle Name:</label>
-                           <input type="text" id="MiddleName" placeholder="Muvaka">
-                       </div>
-                       <div class="form-control">
-                        <label>Reg Number:</label>
-                        <input type="text" id="MiddleName" placeholder="MVK24">
+                    <div class="form-control">
+                        <form class="mForm" name="signIn">
+                           <label>User Name:</label>
+                           <input type="text" name="mName" required><br/><br/>
+                     
+                          <label>Password:</label>
+                          <input type="password" name="pass" required><br/><br/>
+                          <button class="id" name="btn" onclick="myFunction()">SignIn</button>
+                        </form>
                     </div>
-                    <button class="btn">SignIn</button>
-
-
-                   </form>
                 </div>
                 <div class="main2">
                    
@@ -155,6 +154,6 @@
             </nav>
         </footer>
     </div>
-    
+     
 </body>
 </html>
